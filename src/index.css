@@ -1,0 +1,47 @@
+@import url("https://unpkg.com/leaflet@1.9.4/dist/leaflet.css");
+@import "tailwindcss";
+
+body {
+  background: rgb(30, 30, 31);
+}
+
+a.active {
+  background-color: rgba(34, 33, 33, 0.541);
+}
+
+.leaflet-popup-content-wrapper {
+  background-color: black;
+  color: #fff;
+  width: 100%;
+  border-left: 4px solid #16a34a;
+  border-radius: none;
+}
+
+.leaflet-popup-tip {
+  background-color: black;
+}
+
+/* Chrome, Safari, and Edge */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(45, 47, 51);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #16a34a; /* This is green-600 */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #15803d; /* This is green-700 */
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #16a34a rgb(45, 47, 51);
+}

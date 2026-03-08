@@ -1,0 +1,52 @@
+{
+  "cities": [
+    {
+      "id": "2178",
+      "cityName": "Santiago do Cacem",
+      "country": "Portugal",
+      "emoji": "🇵🇹",
+      "date": "2026-02-21T05:14:24.131Z",
+      "notes": "hellow wolrld",
+      "position": {
+        "lat": "38.03619406237626",
+        "lng": "-8.65590423709127"
+      }
+    },
+    {
+      "id": "8468",
+      "cityName": "El Bordj",
+      "country": "Algeria",
+      "emoji": "🇩🇿",
+      "date": "2026-02-21T05:25:56.217Z",
+      "notes": "great",
+      "position": {
+        "lat": "35.50092819950358",
+        "lng": "0.27165889011844246"
+      }
+    },
+    {
+      "id": "2628",
+      "cityName": "Lisbon",
+      "country": "Portugal",
+      "emoji": "🇵🇹",
+      "date": "2026-02-21T06:26:12.637Z",
+      "notes": "dff",
+      "position": {
+        "lat": "38.70788374266403",
+        "lng": "-9.135846067198555"
+      }
+    },
+    {
+      "id": "1781",
+      "cityName": "Nankana Sahib",
+      "country": "Pakistan",
+      "emoji": "🇵🇰",
+      "date": "2026-02-21T06:33:36.316Z",
+      "notes": "I experience cultre of sikhs.",
+      "position": {
+        "lat": "31.4535608907702",
+        "lng": "73.70795115027505"
+      }
+    }
+  ]
+}
