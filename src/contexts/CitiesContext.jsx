@@ -3,7 +3,7 @@ import { useCallback } from "react";
 import { useMemo } from "react";
 
 const CitiesProvider = createContext();
-const BASE_URL = "http://localhost:3000";
+const BASE_URL = "http://https://your-project.mockapi.io";
 const initialState = {
   cities: [],
   cityItem: {},
