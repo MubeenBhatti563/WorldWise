@@ -9,7 +9,7 @@ const HomePage = () => {
     <main
       className="relative h-screen w-full bg-cover bg-center bg-no-repeat"
       style={{
-        backgroundImage: `linear-gradient(rgba(36, 42, 46, 0.8), rgba(36, 42, 46, 0.8)), url('/src/assets/back-img.jpg')`,
+        backgroundImage: `linear-gradient(rgba(36,42,46,0.8), rgba(36,42,46,0.8)), url('${import.meta.env.BASE_URL}back-img.jpg')`,
       }}
     >
       {/* 1. PageNav stays at the top */}

@@ -30,7 +30,6 @@ const Form = () => {
   const handleAddCity = async (e) => {
     e.preventDefault();
     const item = {
-      id: Math.floor(Math.random() * 10000).toString(),
       cityName: city,
       country: data?.countryName,
       emoji: emoji,
